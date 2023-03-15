@@ -1,15 +1,13 @@
 body{
     background-color: #000;
+    font-family:Arial, Helvetica, sans-serif;
 }
-navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
-}
+
 
 .navbar {
   position: fixed;
   width: 100%;
-  background: #131010;
+  background: #000000;
   color: #000;
   opacity: 0.85;
   height: 50px;
@@ -26,9 +24,10 @@ option{
 }
 
 .menu-items {
-    color: #fcebad;
+  color: #ffffff;
   order: 2;
-  margin-right: 10%;
+  margin-right: 3%;
+  margin-top: 6%;
   display: flex;
 }
 
@@ -39,17 +38,11 @@ option{
   font-size: 1.2rem;
 }
 
-.menu-items a {
-  text-decoration: none;
-  color: #444;
-  font-weight: 500;
-  transition: color 0.3s ease-in-out;
-}
 
 .logo {
     padding-left: 0;
     order: 1;
-    color: #fcebad;
+    color: #ffffff;
     font-size: 2.3rem;
     margin-right: auto;
   }
@@ -58,4 +51,8 @@ option{
     padding-top: 10%;
     text-size-adjust: 100px;
     font-size: medium;
+}
+
+.containe{
+  margin-left: 3%;
 }
